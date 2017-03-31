@@ -13,6 +13,6 @@ Teacher::Teacher(std::string nam1) : Human(nam1){}
 std::string Teacher::Hello(){
     std::string salut = "Я учитель ";
     salut += name;
-    return h;
+    return salut;
 }
 
